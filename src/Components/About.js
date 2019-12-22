@@ -17,9 +17,7 @@ class About extends Component {
       var resumeDownload = this.props.data.resumedownload;
     }
     var baseUrl = "";
-    if(isNaN(this.props.baseUrl) || this.props.baseUrl === "") {
-      baseUrl = "";
-    } else if(this.props.baseUrl) {
+    if(this.props.baseUrl) {
        var baseUrl = this.props.baseUrl;
     }
 
