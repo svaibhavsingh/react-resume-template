@@ -2,7 +2,7 @@
   "main": {
     "name":"Vaibhav Singh",
     "description":"Passionate about probabilistic machine learning and its applications. Currently working as Technology Strat at Goldman Sachs.",
-    "image":"images/profilePicture.JPG/",
+    "image":"profilePicture.JPG",
     "bio":"Enthusiastic learner and like developing machine learning solutions to real scenario problems. Skilled in Python, Java, UI development, Deep Learning, Data Analysis, natural language processing, C, and C++. Strong research professional with a Master of Technology (M.Tech.) focused in Machine Learning from Indian Institute of Technology, Hyderabad.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "svaibhavsinghATgmailDOTcom",
@@ -14,42 +14,42 @@
       "country":" India",
       "zip": "471001"
     },
-    "website": "https://svaibhavsingh.github.io/website/",
-    "resumedownload":"/vaibhav_cv_sde.pdf",
+    "website": "https://svaibhavsingh.github.io/website",
+    "resumedownload":"vaibhav_cv_sde.pdf",
     "social":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/svaibhavsingh/",
+        "url":"https://www.linkedin.com/in/svaibhavsingh",
         "className":"fa fa-linkedin"
       },
       {
         "name":"google scholar",
-        "url":"https://scholar.google.com/citations?hl=en&user=Zf7kmBgAAAAJ/",
+        "url":"https://scholar.google.com/citations?hl=en&user=Zf7kmBgAAAAJ",
         "className":"ai ai-google-scholar-square"
       },
       {
         "name":"github",
-        "url":"https://github.com/svaibhavsingh/",
+        "url":"https://github.com/svaibhavsingh",
         "className":"fa fa-github"
       },
       {
         "name":"skype",
-        "url":"https://join.skype.com/invite/exavL5bHIrSL/",
+        "url":"https://join.skype.com/invite/exavL5bHIrSL",
         "className":"fa fa-skype"
       },
       {
         "name":"facebook",
-        "url":"http://facebook.com/svaibhavsingh/",
+        "url":"http://facebook.com/svaibhavsingh",
         "className":"fa fa-facebook"
       },
       {
         "name":"twitter",
-        "url":"http://twitter.com/svaibhavsingh/",
+        "url":"http://twitter.com/svaibhavsingh",
         "className":"fa fa-twitter"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/svaibhavsingh/",
+        "url":"http://instagram.com/svaibhavsingh",
         "className":"fa fa-instagram"
       }
     ]
@@ -124,13 +124,13 @@
       {
         "title":"Convolutional Deep Gaussian Processes",
         "description":"Introduced Convolutional Kernel in Deep Gaussian Processes",
-        "url":"https://github.com/svaibhavsingh/Convolutional-Deep-Gaussian-Processes/",
+        "url":"https://github.com/svaibhavsingh/Convolutional-Deep-Gaussian-Processes",
         "period":"June 2017 - May 2018"
       },
       {
         "title":"Web Crawler",
         "description":"Python Web Crawler to Parse data for websites and store them in files",
-        "url":"https://github.com/svaibhavsingh/web-crawler/",
+        "url":"https://github.com/svaibhavsingh/web-crawler",
         "period":"August 2016 - December 2016"
       }
     ]
