@@ -5,7 +5,7 @@
     "image":"profilePicture.JPG",
     "bio":"Enthusiastic learner and like developing machine learning solutions to real scenario problems. Skilled in Python, Java, UI development, Deep Learning, Data Analysis, natural language processing, C, and C++. Strong research professional with a Master of Technology (M.Tech.) focused in Machine Learning from Indian Institute of Technology, Hyderabad.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "svaibhavsingh@gmail.com",
+    "email": "svaibhavsinghATgmailDOTcom",
     "phone": "+91-9993506648",
     "address":{
       "street":"B-617 Sree Utopia Apartments, Kadubeesanahalli",
@@ -15,7 +15,7 @@
       "zip": "471001"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"/vaibhav_cv_sde.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -71,46 +71,50 @@
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Goldman Sachs",
+        "title":"Strats Analyst",
+        "years":"June 2018 - Present",
+        "description":"Worked as full-stack developer on web applications to automate the manual tasks done and removing the chances of human errors."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Indian Institute of Technology, Hyderabad",
+        "title":"Teaching Assitant",
+        "years":"August 2016 - Nay 2018",
+        "description":"Completed 2 year of teaching assistantship on multiple courses such as Bayesian data analysis, discrete mathematics and concurrent programming."
       }
     ],
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Skills set include data analysis on text and images. Have worked on Python and Java for backend devlopment. For UI have some experience in angular.",
     "skills":[
       {
         "name":"Git",
         "level":"60%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"Python",
+        "level":"70%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
+        "name":"Java",
         "level":"80%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"C++",
+        "level":"70%"
       },
       {
-        "name":"MongoDB",
+        "name":"Angular",
+        "level":"60%"
+      },
+      {
+        "name":"Machine Learning",
+        "level":"70%"
+      },
+      {
+        "name":"Latex",
+        "level":"80%"
+      },
+      {
+        "name":"Computer Vision",
         "level":"80%"
       }
     ]
@@ -118,34 +122,16 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Convolutional Deep Gaussian Processes",
+        "description":"Introduced Convolutional Kernel in Deep Gaussian Processes",
+        "url":"https://github.com/svaibhavsingh/Convolutional-Deep-Gaussian-Processes",
+        "period":"June 2017 - May 2018"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Web Crawler",
+        "description":"Python Web Crawler to Parse data for websites and store them in files",
+        "url":"https://github.com/svaibhavsingh/web-crawler",
+        "period":"August 2016 - December 2016"
       }
     ]
   },
