@@ -20,6 +20,7 @@ class App extends Component {
       baseUrl: '/react-resume-template'
     };
 
+    
     ReactGA.initialize('UA-110570651-1');
     ReactGA.pageview(window.location.pathname);
 
