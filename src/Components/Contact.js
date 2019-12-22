@@ -38,7 +38,7 @@ class Contact extends Component {
             <div className="eight columns">
                <iframe 
                src="https://docs.google.com/forms/d/e/1FAIpQLSfSk5ExTRQ4QnxFSenuf41lPQrnMoZPbb6xqlTSly1e_QyKCA/viewform?embedded=true" 
-               width="640" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+               width="640" height="100%" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
            </div>
 
             <aside className="four columns footer-widgets">

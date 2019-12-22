@@ -16,8 +16,10 @@ class About extends Component {
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
     }
-
-    if(this.props.baseUrl) {
+    var baseUrl = "";
+    if(isNaN(this.props.baseUrl) || this.props.baseUrl === "") {
+      baseUrl = "";
+    } else if(this.props.baseUrl) {
        var baseUrl = this.props.baseUrl;
     }
 

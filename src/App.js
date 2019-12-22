@@ -15,12 +15,9 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      foo: 'bar',
       resumeData: {},
-      baseUrl: '/react-resume-template'
+      baseUrl: "/website"
     };
-
-    
     ReactGA.initialize('UA-110570651-1');
     ReactGA.pageview(window.location.pathname);
 
@@ -43,18 +40,19 @@ class App extends Component {
 
   componentDidMount(){
     this.getResumeData();
+    this.setState({baseUrl: ""});
   }
 
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main} baseUrl={this.state.baseUrl}/>
+        <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main} baseUrl={this.state.baseUrl}/>
-        <Resume data={this.state.resumeData.resume} baseUrl={this.state.baseUrl}/>
-        <Portfolio data={this.state.resumeData.portfolio} baseUrl={this.state.baseUrl}/>
+        <Resume data={this.state.resumeData.resume}/>
+        <Portfolio data={this.state.resumeData.portfolio}/>
         {/* <Testimonials data={this.state.resumeData.testimonials} baseUrl={this.state.baseUrl}/> */}
-        <Contact data={this.state.resumeData.main} baseUrl={this.state.baseUrl}/>
-        <Footer data={this.state.resumeData.main} baseUrl={this.state.baseUrl}/>
+        <Contact data={this.state.resumeData.main}/>
+        <Footer data={this.state.resumeData.main}/>
       </div>
     );
   }
