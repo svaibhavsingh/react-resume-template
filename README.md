@@ -1,1 +1,1 @@
-Kindly refer to https://github.com/tbakerx/react-resume-template for instruction for the setup
+Kindly refer to https://github.com/tbakerx/react-resume-template for instruction to setup
