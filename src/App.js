@@ -16,7 +16,8 @@ class App extends Component {
     super(props);
     this.state = {
       foo: 'bar',
-      resumeData: {}
+      resumeData: {},
+      baseUrl: '/react-resume-template'
     };
 
     ReactGA.initialize('UA-110570651-1');
@@ -26,7 +27,7 @@ class App extends Component {
 
   getResumeData(){
     $.ajax({
-      url:'/resumeData.json',
+      url:this.state.baseUrl + '/resumeData.json',
       dataType:'json',
       cache: false,
       success: function(data){
@@ -46,13 +47,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
-        <Contact data={this.state.resumeData.main}/>
-        <Footer data={this.state.resumeData.main}/>
+        <Header data={this.state.resumeData.main} baseUrl={this.state.baseUrl}/>
+        <About data={this.state.resumeData.main} baseUrl={this.state.baseUrl}/>
+        <Resume data={this.state.resumeData.resume} baseUrl={this.state.baseUrl}/>
+        <Portfolio data={this.state.resumeData.portfolio} baseUrl={this.state.baseUrl}/>
+        {/* <Testimonials data={this.state.resumeData.testimonials} baseUrl={this.state.baseUrl}/> */}
+        <Contact data={this.state.resumeData.main} baseUrl={this.state.baseUrl}/>
+        <Footer data={this.state.resumeData.main} baseUrl={this.state.baseUrl}/>
       </div>
     );
   }
