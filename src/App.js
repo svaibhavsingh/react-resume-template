@@ -40,7 +40,7 @@ class App extends Component {
 
   componentDidMount(){
     this.getResumeData();
-    this.setState({baseUrl: ""});
+    this.setState({baseUrl: "/website"});
   }
 
   render() {
