@@ -2,7 +2,7 @@
   "main": {
     "name":"Vaibhav Singh",
     "description":"Passionate about probabilistic machine learning and its applications. Currently working as Technology Strat at Goldman Sachs.",
-    "image":"/profilePicture.JPG",
+    "image":"website/images/profilePicture.JPG",
     "bio":"Enthusiastic learner and like developing machine learning solutions to real scenario problems. Skilled in Python, Java, UI development, Deep Learning, Data Analysis, natural language processing, C, and C++. Strong research professional with a Master of Technology (M.Tech.) focused in Machine Learning from Indian Institute of Technology, Hyderabad.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "svaibhavsinghATgmailDOTcom",
@@ -15,7 +15,7 @@
       "zip": "471001"
     },
     "website": "https://svaibhavsingh.github.io/website/",
-    "resumedownload":"/vaibhav_cv_sde.pdf",
+    "resumedownload":"website/vaibhav_cv_sde.pdf",
     "social":[
       {
         "name":"linkedin",
